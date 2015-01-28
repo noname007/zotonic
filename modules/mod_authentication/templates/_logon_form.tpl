@@ -1,47 +1,43 @@
 {#
 Params:
--page
--error_reason
--style_boxed -- creates a colored background box
-- logon_form_title_tpl
-    default: _logon_login_title.tpl
-- logon_form_extra_tpl
-    default: _logon_login_extra.tpl
-- logon_form_entry_tpl
-    default: _logon_login_form.tpl
-- logon_form_support_tpl
-    default: _logon_login_support.tpl
-- logon_form_outside_tpl
-    default: _logon_login_outside.tpl  
+- page
+- error_reason
+- style_boxed -- creates a colored background box
+- form_title_tpl
+- form_extra_tpl
+- form_form_tpl
+- form_support_tpl
+- form_outside_tpl
 #}
-<div id="logon_box" class="z-logon-box{% if style_boxed %} z-logon-box-boxed{% endif %}">
-    {% if logon_form_title_tpl %}
-        {% include logon_form_title_tpl %}
+<div id="signup_logon_box" class="z-logon-box{% if style_boxed %} z-logon-box-boxed{% endif %}">
+    {% if form_title_tpl %}
+        {% include form_title_tpl %}
     {% endif %}
-    
-    <div id="logon_error" class="z-logon-error-message">
-        {% include "_logon_error.tpl" reason=error_reason %}
-    </div>
     
     <div class="z-logon-form">
         {% if m.rsc.page_logon.body %}
             <div class="alert">{{ m.rsc.page_logon.body }}</div>
         {% endif %}
     
-        {% if logon_form_extra_tpl %}
-            {% include logon_form_extra_tpl %}
+        {% if form_extra_tpl %}
+            {% include form_extra_tpl %}
         {% endif %}
     
-        {% if logon_form_entry_tpl %}    
-            {% include logon_form_entry_tpl
+        <div id="logon_error" class="alert alert-danger">
+            {% include "_logon_error.tpl" reason=error_reason %}
+        </div>
+    
+        {% if form_form_tpl %}    
+            {% include form_form_tpl
                 page=page
                 use_wire=use_wire
+                form_fields_tpl=form_fields_tpl
             %}
         {% endif %}
     
-        {% if logon_form_support_tpl %}
+        {% if form_support_tpl %}
             <div class="z-logon-support">
-                {% include logon_form_support_tpl
+                {% include form_support_tpl
                     update_target=update_target
                     update_template=update_template
                     logon_state=logon_state
@@ -51,8 +47,8 @@ Params:
         {% endif %}
     </div>
 
-    {% if logon_form_outside_tpl %}
-        {% include logon_form_outside_tpl
+    {% if form_outside_tpl %}
+        {% include form_outside_tpl
             update_target=update_target
             update_template=update_template
             logon_state=logon_state

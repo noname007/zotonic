@@ -13,9 +13,8 @@
 
 	{% all include "_html_head.tpl" %}
 	{% lib 
-			"bootstrap/css/bootstrap.css" 
-			"bootstrap/css/bootstrap-responsive.css" 
-			"bootstrap/css/bootstrap-base-site.css" 
+	        "bootstrap/css/bootstrap.css" 
+	        "bootstrap/css/bootstrap-base-site.css" 
 			"css/z.icons.css" 
 	        "css/site.css" 
 	%}

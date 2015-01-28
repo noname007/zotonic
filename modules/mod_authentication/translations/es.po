@@ -35,15 +35,15 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:5
 #: modules/mod_authentication/templates/_logon_stage.tpl:51
-msgid "Below you can enter a new password for your account"
-msgstr "Abajo puede ingresar una nueva clave para su cuenta"
+msgid "You'll need to create a new one."
+msgstr ""
 
 #: modules/mod_authentication/templates/logon_confirm_form.tpl:28
 msgid "Cancel"
 msgstr "Cancelar"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:78
-msgid "Change password and Log on"
+msgid "Change password and Sign in"
 msgstr "Cambiar clave y conectarse"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:28
@@ -73,7 +73,7 @@ msgid "Confirmation failure"
 msgstr "Falla de confirmación"
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:7
-msgid "Your e-mail address or username"
+msgid "Your e-mail or username"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:4
@@ -83,7 +83,7 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:45
 msgid ""
-"For security reasons password reset codes are only kept for a limited amount "
+"For security reasons, password reset codes are only kept for a limited amount "
 "of time and can only be used once."
 msgstr ""
 "Por razones de seguridad los códigos para restablecer claves se mantienen "
@@ -116,22 +116,22 @@ msgstr ""
 
 #: modules/mod_authentication/templates/logoff.tpl:3
 #: modules/mod_authentication/templates/_logon_off.tpl:2
-msgid "Log Off"
+msgid "Sign out"
 msgstr "Desconectarse"
 
 #: modules/mod_authentication/templates/_logon_off.tpl:4
-msgid "Log On"
+msgid "Sign in"
 msgstr "Conectarse"
 
 #: modules/mod_authentication/templates/_logon_form.tpl:26
 #, fuzzy
-msgid "Log on"
+msgid "Sign in"
 msgstr "Conectarse"
 
 #: modules/mod_authentication/templates/_logon_form.tpl:3
 #: modules/mod_authentication/templates/logon.tpl:8
 #, fuzzy
-msgid "Log on to"
+msgid "Sign in to"
 msgstr "Conectarse"
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:10
@@ -140,7 +140,7 @@ msgid "New password"
 msgstr "Nueva clave"
 
 #: modules/mod_authentication/templates/logoff.tpl:10
-msgid "One moment please, logging off…"
+msgid "One moment please, signing out..."
 msgstr "Un momento por favor, desconectándose..."
 
 #: modules/mod_authentication/templates/logon_confirm_form.tpl:15
@@ -168,7 +168,7 @@ msgstr "Repita la clave"
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:32
 #, fuzzy
-msgid "Reset password and Log on"
+msgid "Reset password and Sign in"
 msgstr "Restablecer Clave y Conectarse"
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:3
@@ -178,10 +178,6 @@ msgstr "Restablecer su clave"
 #: modules/mod_authentication/templates/_logon_stage.tpl:20
 msgid "Send Verification Message"
 msgstr "Enviar Mensaje de Verificación"
-
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:22
-msgid "Request reset"
-msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:38
 msgid "Sorry, could not send the verification message."
@@ -195,8 +191,8 @@ msgstr ""
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:26
 #: modules/mod_authentication/templates/_logon_form.tpl:27
 #: modules/mod_authentication/templates/_logon_stage.tpl:72
-msgid "Stay logged on unless I log off."
-msgstr "Mantenerse conectado a menos que me desconecte."
+msgid "Stay signed in until I sign out"
+msgstr "Mantenerse conectado a menos que me desconecte"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:18
 msgid "Thank you,"
@@ -257,10 +253,10 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:30
 msgid ""
-"We have sent you an e-mail. In the e-mail you will find instructions on how "
+"In the e-mail you will find instructions on how "
 "to confirm your account."
 msgstr ""
-"Le hemos enviado un correo electrónico. En el mismo encontrará instrucciones "
+"En el mismo encontrará instrucciones "
 "de cómo confirmar su cuenta."
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:16
@@ -283,12 +279,8 @@ msgstr ""
 msgid "Need help signing in?"
 msgstr ""
 
-#: modules/mod_authentication/templates/_logon_password_reset.tpl:46
-msgid "You can"
-msgstr "Puede"
-
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address.  Please try again."
+msgid "You entered an unknown username or e-mail address. Please try again."
 msgstr ""
 "Ingresó un nombre de usuario o dirección de correo electrónico desconocidos. "
 "Por favor intente nuevamente."
@@ -298,8 +290,8 @@ msgid "Either the email or the password you entered is incorrect. Please check y
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:49
-msgid "You need to change your password"
-msgstr "Debe cambiar su clave"
+msgid "Your password has expired"
+msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:22
 msgid ""
@@ -314,7 +306,7 @@ msgstr ""
 "mensajes relacionados con este requerimiento."
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:8
-msgid "You requested a new password for"
+msgid "You've requested a new password for"
 msgstr "Usted pidió una nueva clave para"
 
 #: modules/mod_authentication/templates/logoff.tpl:12
@@ -333,23 +325,19 @@ msgstr "Su cuenta debe verificarse"
 msgid "Your new password is too short."
 msgstr "Su nueva clave es demasiado corta."
 
-#: modules/mod_authentication/templates/_logon_password_reset.tpl:37
-msgid "Your password will be reset and you will be logged on as"
-msgstr "Su clave se restablecerá y se conectará como"
-
 #: modules/mod_authentication/templates/_logon_error.tpl:10
 msgid "e-mail a temporary password"
 msgstr "enviar por correo electrónico una clave temporaria"
 
-#: modules/mod_authentication/templates/_logon_password_reset.tpl:46
-msgid "request a new password reset code"
-msgstr "pedir un nuevo código para restablecer la clave"
+#: modules/mod_authentication/templates/_logon_reset_form.tpl:21
+msgid "Simply try again:"
+msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:12
 msgid "user@example.com"
 msgstr ""
 
-#~ msgid "Log on using your"
+#~ msgid "Sign in using your"
 #~ msgstr "Conectarse usando su"
 
 #~ msgid "Please show me the log on form"

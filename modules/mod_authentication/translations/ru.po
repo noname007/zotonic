@@ -33,15 +33,15 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:51
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:5
-msgid "Below you can enter a new password for your account"
-msgstr "Ниже вы можете указать новый пароль для вашей учетной записи"
+msgid "You'll need to create a new one."
+msgstr ""
 
 #: modules/mod_authentication/templates/logon_confirm_form.tpl:28
 msgid "Cancel"
 msgstr "Отмена"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:78
-msgid "Change password and Log on"
+msgid "Change password and Sign in"
 msgstr "Изменить пароль и войти"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:28
@@ -69,7 +69,7 @@ msgid "Confirmation failure"
 msgstr "Ошибка подтверждения"
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:7
-msgid "Your e-mail address or username"
+msgid "Your e-mail or username"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:4
@@ -78,7 +78,7 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:45
 msgid ""
-"For security reasons password reset codes are only kept for a limited amount "
+"For security reasons, password reset codes are only kept for a limited amount "
 "of time and can only be used once."
 msgstr ""
 "В целях обеспечения безопасности коды сброса пароля хранятся в течение "
@@ -110,20 +110,20 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_off.tpl:2
 #: modules/mod_authentication/templates/logoff.tpl:3
-msgid "Log Off"
+msgid "Sign out"
 msgstr "Выйти"
 
 #: modules/mod_authentication/templates/_logon_off.tpl:4
-msgid "Log On"
+msgid "Sign in"
 msgstr "Войти"
 
 #: modules/mod_authentication/templates/_logon_form.tpl:26
-msgid "Log on"
+msgid "Sign in"
 msgstr "Вход"
 
 #: modules/mod_authentication/templates/logon.tpl:8
 #: modules/mod_authentication/templates/_logon_form.tpl:3
-msgid "Log on to"
+msgid "Sign in to"
 msgstr "Войти на"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:56
@@ -132,7 +132,7 @@ msgid "New password"
 msgstr "Новый пароль"
 
 #: modules/mod_authentication/templates/logoff.tpl:10
-msgid "One moment please, logging off…"
+msgid "One moment please, signing out..."
 msgstr "Подождите, пожалуйста, выполняется выход…"
 
 #: modules/mod_authentication/templates/logon_confirm_form.tpl:15
@@ -159,7 +159,7 @@ msgid "Repeat password"
 msgstr "Повторите пароль"
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:32
-msgid "Reset password and Log on"
+msgid "Reset password and Sign in"
 msgstr "Сбросить пароль и войти"
 
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:3
@@ -169,10 +169,6 @@ msgstr "Сброс пароля"
 #: modules/mod_authentication/templates/_logon_stage.tpl:20
 msgid "Send Verification Message"
 msgstr "Получить код проверки"
-
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:22
-msgid "Request reset"
-msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:38
 msgid "Sorry, could not send the verification message."
@@ -185,8 +181,8 @@ msgstr "Извините, ваш код для сброса пароля нев�
 #: modules/mod_authentication/templates/_logon_stage.tpl:72
 #: modules/mod_authentication/templates/_logon_form.tpl:27
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:26
-msgid "Stay logged on unless I log off."
-msgstr "Оставаться в системе до самостоятельного выхода."
+msgid "Stay signed in until I sign out"
+msgstr "Оставаться в системе до самостоятельного выхода"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:18
 msgid "Thank you,"
@@ -242,10 +238,10 @@ msgstr "Ваш электронный адрес для обратной свя�
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:30
 msgid ""
-"We have sent you an e-mail. In the e-mail you will find instructions on how "
+"In the e-mail you will find instructions on how "
 "to confirm your account."
 msgstr ""
-"Вам отправлено сообщение на e-mail. В сообщении указаны инструкции по "
+"В сообщении указаны инструкции по "
 "активации вашей учетной записи."
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:16
@@ -266,12 +262,8 @@ msgstr ""
 msgid "Need help signing in?"
 msgstr ""
 
-#: modules/mod_authentication/templates/_logon_password_reset.tpl:46
-msgid "You can"
-msgstr "Вы можете сделать"
-
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address.  Please try again."
+msgid "You entered an unknown username or e-mail address. Please try again."
 msgstr "Вы указали неверное имя пользователя или e-mail.  Попробуйте снова."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -279,8 +271,8 @@ msgid "Either the email or the password you entered is incorrect. Please check y
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:49
-msgid "You need to change your password"
-msgstr "Вам нужно сменить свой пароль"
+msgid "Your password has expired"
+msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:22
 msgid ""
@@ -295,7 +287,7 @@ msgstr ""
 "функцией."
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:8
-msgid "You requested a new password for"
+msgid "You've requested a new password for"
 msgstr "Вы запросили смену пароля от"
 
 #: modules/mod_authentication/templates/logoff.tpl:12
@@ -314,17 +306,13 @@ msgstr "Вашу учетную запись необходимо активир
 msgid "Your new password is too short."
 msgstr "Вы указали слишком короткий пароль."
 
-#: modules/mod_authentication/templates/_logon_password_reset.tpl:37
-msgid "Your password will be reset and you will be logged on as"
-msgstr "Ваш пароль будет сброшен, и вы войдете как"
-
 #: modules/mod_authentication/templates/_logon_error.tpl:10
 msgid "e-mail a temporary password"
 msgstr "заявку на временный пароль"
 
-#: modules/mod_authentication/templates/_logon_password_reset.tpl:46
-msgid "request a new password reset code"
-msgstr "заявку на новый код для смены пароля"
+#: modules/mod_authentication/templates/_logon_reset_form.tpl:21
+msgid "Simply try again:"
+msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:12
 msgid "user@example.com"

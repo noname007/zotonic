@@ -53,8 +53,8 @@ msgid "Confirm my account."
 msgstr "Potwierdź konto."
 
 #: modules/mod_signup/templates/signup.tpl:70
-msgid "Create your account"
-msgstr "Stwórz nowe konto"
+msgid "Sign up with your e-mail address"
+msgstr ""
 
 #: modules/mod_signup/templates/email_verify.tpl:6
 msgid "Dear"
@@ -180,10 +180,10 @@ msgstr "Powtórz hasło"
 
 #: modules/mod_signup/templates/signup.tpl:173
 msgid ""
-"We have sent you an e-mail. In the e-mail you will find instructions on how "
+"In the e-mail you will find instructions on how "
 "to confirm your account."
 msgstr ""
-"Wysłaliśmy do Ciebie wiadomość weryfikacyjną. Znajdują się w niej "
+"Znajdują się w niej "
 "informacje, niezbędne do pełnej aktywacji konta."
 
 #: modules/mod_signup/templates/signup.tpl:149
@@ -210,8 +210,8 @@ msgstr ""
 "antyspamowym."
 
 #: modules/mod_signup/templates/signup.tpl:171
-msgid "You are almost there!"
-msgstr "To już prawie koniec!"
+msgid "E-mail on its way!"
+msgstr ""
 
 #: modules/mod_signup/templates/signup.tpl:60
 msgid "You can also"

@@ -45,7 +45,14 @@ event(#submit{message={logon, _Args}}, Context) ->
     controller_logon:logon(Args, Context);
 event(#submit{message={reminder, _Args}}, Context) ->
     Args = z_context:get_q_all(Context),
-    controller_logon:reminder(Args, Context).
+    controller_logon:reminder(Args, Context);
+event(#submit{message={expired, _Args}}, Context) ->
+    Args = z_context:get_q_all(Context),
+    controller_logon:expired(Args, Context);
+event(#submit{message={reset, _Args}}, Context) ->
+    lager:info("reset"),
+    Args = z_context:get_q_all(Context),
+    controller_logon:reset(Args, Context).
     
 observe_admin_menu(admin_menu, Acc, Context) ->
     [

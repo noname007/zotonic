@@ -52,8 +52,8 @@ msgid "Confirm my account."
 msgstr "Bevestig mijn account."
 
 #: modules/mod_signup/templates/signup.tpl:70
-msgid "Create your account"
-msgstr "Maak een account"
+msgid "Sign up with your e-mail address"
+msgstr "Aanmelden met je e-mailadres"
 
 #: modules/mod_signup/templates/email_verify.tpl:6
 msgid "Dear"
@@ -173,10 +173,10 @@ msgstr "Bevestig wachtwoord"
 
 #: modules/mod_signup/templates/signup.tpl:173
 msgid ""
-"We have sent you an e-mail. In the e-mail you will find instructions on how "
+"In the e-mail you will find instructions on how "
 "to confirm your account."
 msgstr ""
-"We hebben je een e-mail gestuurd.  In de e-mail vind je instructies hoe je "
+"In de e-mail vind je instructies hoe je "
 "je account kan bevestigen."
 
 #: modules/mod_signup/templates/signup.tpl:149
@@ -202,8 +202,8 @@ msgstr ""
 "spam filters en spam mappen."
 
 #: modules/mod_signup/templates/signup.tpl:171
-msgid "You are almost there!"
-msgstr "Je bent er bijna!"
+msgid "E-mail on its way!"
+msgstr "E-mail is onderweg!"
 
 #: modules/mod_signup/templates/signup.tpl:60
 msgid "You can also"
