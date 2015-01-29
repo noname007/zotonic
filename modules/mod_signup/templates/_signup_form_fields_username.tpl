@@ -12,7 +12,7 @@
     </div>
 
     {% with 
-        6
+        (m.config.mod_authentication.password_min_length.value|default:"6")|to_integer
         as
         min_length
     %}

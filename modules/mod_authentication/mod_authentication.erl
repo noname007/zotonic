@@ -27,6 +27,7 @@
 
 %% gen_server exports
 -export([
+    init/1,
     event/2,
     observe_logon_submit/2,
     observe_auth_autologon/2,
@@ -37,6 +38,15 @@
 
 -include("zotonic.hrl").
 -include_lib("modules/mod_admin/include/admin_menu.hrl").
+
+
+init(Context) ->
+    % Ensure password_min_length config
+    case m_config:get(?MODULE, password_min_length, Context) of 
+        undefined -> m_config:set_value(?MODULE, password_min_length, "6", Context);
+        _ -> nop
+    end,
+    ok.
 
 
 %% @doc Handle logon submits in case we cannot use controller_logon. Pass on the  data to the page controller.
