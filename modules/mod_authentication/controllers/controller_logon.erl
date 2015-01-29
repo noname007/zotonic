@@ -246,9 +246,10 @@ reset(Args, Context) ->
     Secret = proplists:get_value("secret", Args),
     Password1 = z_string:trim(proplists:get_value("password_reset1", Args)),
     Password2 = z_string:trim(proplists:get_value("password_reset2", Args)),
+    PasswordMinLength = z_convert:to_integer(m_config:get_value(mod_authentication, password_min_length, "6", Context)),
     
     case {Password1,Password2} of
-        {A,_} when length(A) < z_convert:to_integer(get_value(mod_authentication, password_min_length, "6", Context)) ->
+        {A,_} when length(A) < PasswordMinLength ->
             logon_error("tooshort", Context);
         {P,P} ->
             {ok, UserId} = get_by_reminder_secret(Secret, Context),
