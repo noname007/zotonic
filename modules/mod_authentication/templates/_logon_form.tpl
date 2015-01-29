@@ -35,15 +35,13 @@ Params:
             %}
         {% endif %}
     
-        {% if form_support_tpl %}
-            <div class="z-logon-support">
-                {% include form_support_tpl
-                    update_target=update_target
-                    update_template=update_template
-                    logon_state=logon_state
-                    logon_context=logon_context
-                %}
-            </div>
+        {% if form_support_tpl %}            
+            {% include form_support_tpl
+                update_target=update_target
+                update_template=update_template
+                logon_state=logon_state
+                logon_context=logon_context
+            %}
         {% endif %}
     </div>
 

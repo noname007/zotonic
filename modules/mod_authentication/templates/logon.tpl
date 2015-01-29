@@ -11,8 +11,6 @@
 {{ m.rsc.page_logon.title|default:[_"Sign in to", " ", m.config.site.title.value|default:"Zotonic"] }}
 {% endblock %}
 
-{% block page_class %}z-page-logon{% endblock %}
-
 {% block content_area %}
     {% include "_logon.tpl" style_boxed=0 %}
 {% endblock %}

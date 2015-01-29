@@ -52,18 +52,34 @@ Make sure that these CSS files are loaded:
         style_boxed=style_boxed
     %}
 {% elseif logon_state == `reminder` %}
-    {% include "_logon_form.tpl"
-        form_title_tpl="_logon_reminder_title.tpl"
-        form_form_tpl="_logon_reminder_form.tpl"
-        form_fields_tpl="_logon_reminder_form_fields.tpl"
-        form_support_tpl="_logon_reminder_support.tpl"
-        logon_state=logon_state
-        logon_context=logon_context
-        update_target=update_target
-        update_template=update_template
-        use_wire=use_wire
-        style_boxed=style_boxed
-    %}
+    {% if logon_context == 'admin_logon' %}
+        {# hide title #}
+        {% include "_logon_form.tpl"
+            form_title_tpl="_logon_reminder_title.tpl"
+            form_form_tpl="_logon_reminder_form.tpl"
+            form_fields_tpl="_logon_reminder_admin_form_fields.tpl"
+            form_support_tpl="_logon_reminder_support.tpl"
+            logon_state=logon_state
+            logon_context=logon_context
+            update_target=update_target
+            update_template=update_template
+            use_wire=use_wire
+            style_boxed=style_boxed
+        %}
+    {% else %}
+        {% include "_logon_form.tpl"
+            form_title_tpl="_logon_reminder_title.tpl"
+            form_form_tpl="_logon_reminder_form.tpl"
+            form_fields_tpl="_logon_reminder_form_fields.tpl"
+            form_support_tpl="_logon_reminder_support.tpl"
+            logon_state=logon_state
+            logon_context=logon_context
+            update_target=update_target
+            update_template=update_template
+            use_wire=use_wire
+            style_boxed=style_boxed
+        %}
+    {% endif %}
 {% elseif logon_state == `reset` %}
     {% include "_logon_form.tpl"
         form_title_tpl="_logon_reset_title.tpl"

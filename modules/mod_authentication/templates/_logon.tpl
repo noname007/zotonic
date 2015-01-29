@@ -11,7 +11,7 @@ Params:
 #}
 {% with 
     style_boxed|default:0,
-    logon_context|default:""
+    logon_context|default:(zotonic_dispatch=='admin_logon')|if:"admin_logon":""
     as
     style_boxed,
     logon_context

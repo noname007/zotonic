@@ -3,7 +3,7 @@
     <input class="form-control" type="text" id="username" name="username" value="" autofocus="autofocus" autocomplete="on" />
     {% validate id="username"
         type={presence}
-        only_on_blur
+        only_on_submit
     %}
 </div>
 
@@ -12,7 +12,7 @@
     <input class="form-control" type="password" id="password" name="password" value="" autocomplete="on" />
     {% validate id="password"
         type={presence}
-        only_on_blur
+        only_on_submit
     %}
 </div>
 

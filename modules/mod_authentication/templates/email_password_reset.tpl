@@ -20,5 +20,5 @@
 
 {% block disclaimer %}
 <p style="color: #666; font-size: 80%;">--<br/>
-{_ You receive this e-mail because you or someone else requested a password reset for your account. You or the someone else either entered your username or e-mail address.  You will not receive any additional e-mails because of this request. _}</p>
+{_ You receive this e-mail because you or someone else requested a password reset for your account. You or the someone else either entered your username or e-mail address. You will not receive any additional e-mails because of this request. _}</p>
 {% endblock %}
