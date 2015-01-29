@@ -5,7 +5,7 @@
 // MW: 20100316: Adapted for async usage with Zotonic.
 // MW: 20100629: Added support for presence check on radio buttons
 // MW: 20110329: Dynamically fetch the validation fields from the DOM, this makes it possible to add/remove fields dynamically.
-// AC: 20150128: Removed unused class names. Changed messageClass to Bootstrap 3 conform "help-block". Replaced hardcoded "control-group" to fieldGroupClass, using Bootstrap 3 "form-group".
+// AC: 20150129: Removed unused class names. Changed messageClass to Bootstrap 3 conform "help-block". Replaced hardcoded "control-group" to fieldGroupClass, using Bootstrap 3 "form-group". Replaced hardcoded class "success" in favor of fieldGroupSuccessClass (Bootstrap 3 "has-success"); replaced hardcoded class "error" in favor of fieldGroupErrorClass (Bootstrap 3 "has-error").
 
 
 /*********************************************** LiveValidation class ***********************************/
@@ -77,6 +77,7 @@ LiveValidation.prototype = {
     asyncFieldClass: '', // was: z_async_validation
     fieldGroupClass: 'form-group',
     fieldGroupErrorClass: 'has-error',
+    fieldGroupSuccessClass: 'has-success',
 
     /**
      *  initialises all of the properties and events
@@ -555,7 +556,7 @@ LiveValidation.prototype = {
         if(!this.validationFailed){
             if(this.displayMessageWhenEmpty || this.element.value !== ''){
                 $('input[name="'+this.element.name+'"],select[name="'+this.element.name+'"],textarea[name="'+this.element.name+'"]')
-                    .closest('.' + this.fieldGroupClass).addClass("success");
+                    .closest('.' + this.fieldGroupClass).addClass(this.fieldGroupSuccessClass);
                 switch (this.elementType) {
                 case LiveValidation.RADIO:
                 case LiveValidation.CHECKBOX:
@@ -570,7 +571,7 @@ LiveValidation.prototype = {
             }
         }else{
             $('input[name="'+this.element.name+'"],select[name="'+this.element.name+'"],textarea[name="'+this.element.name+'"]')
-                    .closest('.' + this.fieldGroupClass).removeClass("success").addClass(this.fieldGroupErrorClass);
+                    .closest('.' + this.fieldGroupClass).removeClass(this.fieldGroupSuccessClass).addClass(this.fieldGroupErrorClass);
             $('label[for="'+this.element.id+'"]').addClass(this.invalidFieldClass);
 
             switch (this.elementType) {
@@ -609,7 +610,7 @@ LiveValidation.prototype = {
      */
     removeFieldClass: function(){
         $('input[name="'+this.element.name+'"],select[name="'+this.element.name+'"],textarea[name="'+this.element.name+'"]')
-                .closest('.' + this.fieldGroupClass).removeClass("success").removeClass(this.fieldGroupErrorClass);
+                .closest('.' + this.fieldGroupClass).removeClass(this.fieldGroupSuccessClass).removeClass(this.fieldGroupErrorClass);
         $('label[for="'+this.element.id+'"]').removeClass(this.invalidFieldClass);
         switch (this.elementType) {
         case LiveValidation.RADIO:
