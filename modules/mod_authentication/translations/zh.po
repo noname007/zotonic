@@ -79,10 +79,6 @@ msgid ""
 "of time and can only be used once."
 msgstr "为了确保安全，密码重设码只在有限时间内可用，而且只能被使用一次。"
 
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "忘记密码？"
-
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
 msgstr "你好"
@@ -251,7 +247,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr "未知用户名/e-mail地址，请重试。"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -266,7 +262,7 @@ msgstr ""
 msgid ""
 "You receive this e-mail because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address.  You will not receive any additional e-mails because of "
+"or e-mail address. You will not receive any additional e-mails because of "
 "this request."
 msgstr ""
 "你收到本邮件是因为有人通过输入用户名或者 e-mail 地址请求重置你的账户密码.你不"

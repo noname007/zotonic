@@ -89,10 +89,6 @@ msgstr ""
 "Por razones de seguridad los códigos para restablecer claves se mantienen "
 "por un tiempo limitado y sólo pueden ser usados una vez."
 
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Olvidó su clave?"
-
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
 msgstr "Hola"
@@ -280,7 +276,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr ""
 "Ingresó un nombre de usuario o dirección de correo electrónico desconocidos. "
 "Por favor intente nuevamente."
@@ -297,7 +293,7 @@ msgstr ""
 msgid ""
 "You receive this e-mail because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address.  You will not receive any additional e-mails because of "
+"or e-mail address. You will not receive any additional e-mails because of "
 "this request."
 msgstr ""
 "Ha recibido este correo electrónico porque usted o alguien más pidieron que "

@@ -231,8 +231,8 @@ msgid "in the input field."
 msgstr "en el campo de entrada."
 
 #: modules/mod_signup/templates/signup.tpl:57
-msgid "log on now"
-msgstr "conectarse ahora"
+msgid "sign in"
+msgstr ""
 
 #: modules/mod_signup/templates/signup.tpl:60
 msgid "sign up for a username and password"

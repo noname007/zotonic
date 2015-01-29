@@ -75,10 +75,6 @@ msgstr ""
 msgid "For security reasons, password reset codes are only kept for a limited amount of time and can only be used once."
 msgstr "Güvenlik sebebiyle şifre sıfırlama kodu kısa bir süre tutulmaktadır ve sadece bir kere kullanılabilmektedir."
 
-#: priv/sites/wwwteleskeleorg/modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Şifrenizi mi unuttunuz?"
-
 #: priv/sites/wwwteleskeleorg/modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
 msgstr "Merhaba"
@@ -234,7 +230,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: priv/sites/wwwteleskeleorg/modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr "Bilinmeyen bir kullanıcı adı veya e-mail adresi girdiniz. Lütfen tekrar deneyiniz."
 
 #: priv/sites/wwwteleskeleorg/modules/mod_authentication/templates/_logon_error.tpl:5
@@ -246,7 +242,7 @@ msgid "Your password has expired"
 msgstr ""
 
 #: priv/sites/wwwteleskeleorg/modules/mod_authentication/templates/email_password_reset.tpl:22
-msgid "You receive this e-mail because you or someone else requested a password reset for your account. You or the someone else either entered your username or e-mail address.  You will not receive any additional e-mails because of this request."
+msgid "You receive this e-mail because you or someone else requested a password reset for your account. You or the someone else either entered your username or e-mail address. You will not receive any additional e-mails because of this request."
 msgstr "Siz veya bir başkası hesabınız için şifre sıfırlama talebinde bulunduğu için bu gönderiyi aldınız. Siz veya bir başkası sizin e-mail adresinizi veya kullanıcı adınızı girmiş olabilir. Bununla ilgili başka bir gönderi almayacaksınız."
 
 #: priv/sites/wwwteleskeleorg/modules/mod_authentication/templates/email_password_reset.tpl:8

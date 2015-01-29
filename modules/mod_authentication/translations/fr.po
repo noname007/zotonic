@@ -90,10 +90,6 @@ msgstr ""
 "sont valides que pour une durée limitée et ne peuvent être utilisé qu'une "
 "seule fois."
 
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Mot de passe oublié?"
-
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
 msgstr "Bonjour"
@@ -279,7 +275,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr ""
 "Vous avez entré un identifiant ou adresse email inconnue. Merci de réessayer."
 
@@ -295,7 +291,7 @@ msgstr ""
 msgid ""
 "You receive this e-mail because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address.  You will not receive any additional e-mails because of "
+"or e-mail address. You will not receive any additional e-mails because of "
 "this request."
 msgstr ""
 "Vous recevez cet email car vous ou quelqun d'autre avez demandé à changer de "

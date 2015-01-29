@@ -208,8 +208,8 @@ msgid "in the input field."
 msgstr "在输入框中。"
 
 #: modules/mod_signup/templates/signup.tpl:57
-msgid "log on now"
-msgstr "现在登录"
+msgid "sign in"
+msgstr ""
 
 #: modules/mod_signup/templates/signup.tpl:60
 msgid "sign up for a username and password"

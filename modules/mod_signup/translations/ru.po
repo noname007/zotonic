@@ -231,8 +231,8 @@ msgid "in the input field."
 msgstr "в поле ввода."
 
 #: modules/mod_signup/templates/signup.tpl:57
-msgid "log on now"
-msgstr "войти немедленно"
+msgid "sign in"
+msgstr ""
 
 #: modules/mod_signup/templates/signup.tpl:60
 msgid "sign up for a username and password"

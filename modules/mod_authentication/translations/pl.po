@@ -77,10 +77,6 @@ msgstr ""
 msgid "For security reasons, password reset codes are only kept for a limited amount of time and can only be used once."
 msgstr "Ze względów bezpieczeństwa kod pozwalający na uzyskanie nowego hasła jest przechowywany tylko przez określony czas i może być użyty tylko raz."
 
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Zapomniałeś hasła?"
-
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
 msgstr "Cześć"
@@ -236,7 +232,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr "Podałeś nieprawidłowy login lub e-mail. Spróbuj ponownie."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -248,7 +244,7 @@ msgid "Your password has expired"
 msgstr "Musisz zmienić hasło"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:22
-msgid "You receive this e-mail because you or someone else requested a password reset for your account. You or the someone else either entered your username or e-mail address.  You will not receive any additional e-mails because of this request."
+msgid "You receive this e-mail because you or someone else requested a password reset for your account. You or the someone else either entered your username or e-mail address. You will not receive any additional e-mails because of this request."
 msgstr "Otrzymałeś tę wiadomość ponieważ Ty (bądź ktoś inny) uruchomił procedurę ustawiania nowego hasła dla Twojego konta. Ty (bądź ktoś inny) podał przy tym Twój login lub adres e-mail. Nie będziesz otrzymywać z tego powodu dalszych wiadomości."
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:8

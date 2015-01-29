@@ -84,10 +84,6 @@ msgstr ""
 "В целях обеспечения безопасности коды сброса пароля хранятся в течение "
 "ограниченного промежутка времени и могут быть использованы только один раз."
 
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Забыли пароль?"
-
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
 msgstr "Добро пожаловать,"
@@ -263,7 +259,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr "Вы указали неверное имя пользователя или e-mail.  Попробуйте снова."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -278,7 +274,7 @@ msgstr ""
 msgid ""
 "You receive this e-mail because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address.  You will not receive any additional e-mails because of "
+"or e-mail address. You will not receive any additional e-mails because of "
 "this request."
 msgstr ""
 "Вы получили это сообщение, потому что вы или кто-то другой запросили сброс "

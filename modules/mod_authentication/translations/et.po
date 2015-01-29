@@ -83,11 +83,7 @@ msgid ""
 "of time and can only be used once."
 msgstr ""
 "Turvalisuse kaalutlusel säilitatakse arooli muutmise koode ainult "
-"lühiajaliselt ja neid saab kasutada ainult ühekordselt."
-
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Unustasid parooli?"
+"lühiajaliselt ja neid saab kasutada ainult ühekordselt.
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
@@ -272,7 +268,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr "Sisestasid tundmatu kasutajanime või e-maili aadressi. Proovi uuesti."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -287,7 +283,7 @@ msgstr ""
 msgid ""
 "You receive this e-mail because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address.  You will not receive any additional e-mails because of "
+"or e-mail address. You will not receive any additional e-mails because of "
 "this request."
 msgstr ""
 "Sa said selle e-maili, kuna keegi tellis sinu kontol paroolivahetuse. Sina "

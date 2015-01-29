@@ -81,11 +81,7 @@ msgid ""
 "of time and can only be used once."
 msgstr ""
 "Om veiligheidsredenen worden codes om je wachtwoord te wijzigen "
-"slechts tijdelijk opgeslagen en kun je ze maar een keer gebruiken."
-
-#: modules/mod_authentication/templates/_logon_password_reminder.tpl:2
-msgid "Forgot your password?"
-msgstr "Wachtwoord vergeten?"
+"slechts tijdelijk opgeslagen en kun je ze maar een keer gebruiken.
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:6
 msgid "Hello"
@@ -268,7 +264,7 @@ msgid "Need help signing in?"
 msgstr "Hulp nodig bij inloggen?"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or e-mail address. Please try again."
 msgstr ""
 "Je hebt een onbekende gebruikersnaam of e-mailadres ingevuld. Probeer het "
 "nogmaals."
@@ -285,7 +281,7 @@ msgstr "Je wachtwoord is niet langer geldig"
 msgid ""
 "You receive this e-mail because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address.  You will not receive any additional e-mails because of "
+"or e-mail address. You will not receive any additional e-mails because of "
 "this request."
 msgstr ""
 "Je ontvangt dit e-mailbericht omdat jij of iemand anders heeft aangevraagd "
