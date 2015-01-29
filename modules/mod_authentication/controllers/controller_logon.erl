@@ -25,7 +25,7 @@
 -export([event/2]).
 -export([get_rememberme_cookie/1, set_rememberme_cookie/2, reset_rememberme_cookie/1]).
 
-%% Convenience export for other auth implementations.
+%% Convenience export for other modules.
 -export([logon/2, reminder/2, expired/2, reset/2]).
 
 %% Convenience export for other auth implementations.
