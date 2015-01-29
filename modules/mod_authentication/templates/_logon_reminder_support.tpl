@@ -1,7 +1,7 @@
 {% if not m.acl.user %}
 <div class="z-logon-support">
     <p>
-       <a href="{% url logon %}" id="back_to_logon">{_ Back to logon form _}</a>
+       <a href="{% url logon %}" id="back_to_logon">{_ Back to sign in _}</a>
        {% if logon_state %}
             {% wire id="back_to_logon"
                 action={

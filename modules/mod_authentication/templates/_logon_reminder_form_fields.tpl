@@ -1,5 +1,5 @@
 <div class="form-group">
-    <label for="reminder_address" class="control-label">{_ Your e-mail or username _}</label>
+    <label for="reminder_address" class="control-label">{_ Your email or username _}</label>
     <input
         class="form-control"
         type="text"
@@ -11,7 +11,7 @@
         autocapitalize="off"
         autocomplete="on" />
         {% validate id="reminder_address"
-            type={presence failure_message=_"Enter your e-mail address or username"}
+            type={presence failure_message=_"Enter your email address or username"}
             only_on_submit
         %}
 </div>

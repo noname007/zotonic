@@ -23,7 +23,7 @@ msgstr ""
 #: modules/mod_authentication/templates/_logon_stage.tpl:42
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:48
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:23
-msgid "Back to logon form"
+msgid "Back to sign in"
 msgstr "回到登录表单"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:8
@@ -44,12 +44,12 @@ msgid "Change password and Sign in"
 msgstr "修改密码并登录"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:28
-msgid "Check your e-mail!"
+msgid "Check your email"
 msgstr "检查你的 e-mail"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:17
-msgid "Click on the button below to e-mail you a verification message."
-msgstr "点击下面的按钮通过 e-mail 向你发送确认信息"
+msgid "You're almost done! To make sure you are really you, we ask you to confirm your account from your email address."
+msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:12
 msgid ""
@@ -66,7 +66,7 @@ msgid "Confirmation failure"
 msgstr "验证失败"
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:7
-msgid "Your e-mail or username"
+msgid "Your email or username"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:4
@@ -91,12 +91,8 @@ msgstr "如何重设密码"
 msgid "I forgot my password"
 msgstr "忘记密码"
 
-#: modules/mod_authentication/templates/_logon_stage.tpl:4
-msgid "A password reset e-mail has been sent"
-msgstr ""
-
 #: modules/mod_authentication/templates/_logon_stage.tpl:6
-msgid "Please follow the instructions in the e-mail."
+msgid "We have sent you an email with a link to reset your password."
 msgstr ""
 
 #: modules/mod_authentication/templates/logoff.tpl:3
@@ -185,11 +181,11 @@ msgid "The crew at"
 msgstr "全体成员"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:10
-msgid "The e-mail address associated with your account is"
+msgid "The email address associated with your account is"
 msgstr "与你账户对应的 e-mail 地址是"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:10
-msgid "The e-mail will contain instructions how to reset your password."
+msgid "The email will contain instructions how to reset your password."
 msgstr "这封 e-mail 将会告诉你如何重设你的密码。"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:28
@@ -198,8 +194,7 @@ msgstr "两个密码需要完全一致，请重新输入。"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:17
 msgid ""
-"To find your account\tyou need to enter either your username or the e-mail "
-"address you gave us."
+"To find your account you need to enter either your username or the email address we have received from you."
 msgstr "为了找回你的账户，你需要输入用户名或者 e-mail 地址。"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:24
@@ -214,32 +209,32 @@ msgstr "用户名"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:16
 msgid ""
-"We can only send you an e-mail when we have the e-mail address of your "
+"We can only send you an email when we have the email address of your "
 "account."
 msgstr "只有在你的账户绑定了 e-mail 地址的情况下我们才能给你发送邮件。"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:40
 msgid ""
-"We don’t seem to have any valid e-mail address or other electronic "
+"We don’t seem to have any valid email address or other electronic "
 "communication address of you."
 msgstr "没有找到任何关于你的可用 e-mail 地址信息或是其他电子联系方式。"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:30
 msgid ""
-"In the e-mail you will find instructions on how "
+"In the email you will find instructions on how "
 "to confirm your account."
 msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:16
 msgid ""
-"When you didn't request a password reset, you can ignore this e-mail. Maybe "
-"someone made an error typing his or her e-mail address."
+"When you didn't request a password reset, you can ignore this email. Maybe "
+"someone made an error typing his or her email address."
 msgstr "如果你没有请求重置密码，请忽略本邮件。可能是有人输入了错误的地址。"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:7
 #: modules/mod_authentication/templates/_logon_stage.tpl:32
 msgid ""
-"If you do not receive the e-mail within a few minutes, please check your spam folder."
+"If you do not receive the email within a few minutes, please check your spam folder."
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:10
@@ -247,7 +242,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You've entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or email address. Please try again."
 msgstr "未知用户名/e-mail地址，请重试。"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -260,9 +255,9 @@ msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:22
 msgid ""
-"You receive this e-mail because you or someone else requested a password "
+"You receive this email because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address. You will not receive any additional e-mails because of "
+"or email address. You will not receive any additional emails because of "
 "this request."
 msgstr ""
 "你收到本邮件是因为有人通过输入用户名或者 e-mail 地址请求重置你的账户密码.你不"
@@ -281,15 +276,15 @@ msgid "Your account name is"
 msgstr "你的帐户名是"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:15
-msgid "Your account needs verification"
-msgstr "你的账户需要验证"
+msgid "Verify your account"
+msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:21
 msgid "Your new password is too short."
 msgstr "你的新密码太短。"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:10
-msgid "e-mail a temporary password"
+msgid "email a temporary password"
 msgstr "e-mail 一个临时密码"
 
 #: modules/mod_authentication/templates/_logon_reset_form.tpl:21

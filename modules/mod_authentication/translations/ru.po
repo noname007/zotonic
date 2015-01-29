@@ -23,7 +23,7 @@ msgstr ""
 #: modules/mod_authentication/templates/_logon_stage.tpl:42
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:23
 #: modules/mod_authentication/templates/_logon_password_reset.tpl:48
-msgid "Back to logon form"
+msgid "Back to sign in"
 msgstr "Вернуться к форме входа"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:8
@@ -45,12 +45,12 @@ msgid "Change password and Sign in"
 msgstr "Изменить пароль и войти"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:28
-msgid "Check your e-mail!"
+msgid "Check your email"
 msgstr "Проверьте свой e-mail!"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:17
-msgid "Click on the button below to e-mail you a verification message."
-msgstr "Нажмите на эту кнопку, чтобы получить сообщение для проверки e-mail."
+msgid "You're almost done! To make sure you are really you, we ask you to confirm your account from your email address."
+msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:12
 msgid ""
@@ -69,7 +69,7 @@ msgid "Confirmation failure"
 msgstr "Ошибка подтверждения"
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:7
-msgid "Your e-mail or username"
+msgid "Your email or username"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_password_reminder.tpl:4
@@ -96,12 +96,8 @@ msgstr "Как сбросить пароль"
 msgid "I forgot my password"
 msgstr "Забыл пароль"
 
-#: modules/mod_authentication/templates/_logon_stage.tpl:4
-msgid "A password reset e-mail has been sent"
-msgstr ""
-
 #: modules/mod_authentication/templates/_logon_stage.tpl:6
-msgid "Please follow the instructions in the e-mail."
+msgid "We have sent you an email with a link to reset your password."
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_off.tpl:2
@@ -189,11 +185,11 @@ msgid "The crew at"
 msgstr "Администрация"
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:10
-msgid "The e-mail address associated with your account is"
+msgid "The email address associated with your account is"
 msgstr "Адрес e-mail, соответствующий вашей учетной записи:"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:10
-msgid "The e-mail will contain instructions how to reset your password."
+msgid "The email will contain instructions how to reset your password."
 msgstr "На ваш e-mail придут инструкции по сбросу пароля."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:28
@@ -202,8 +198,7 @@ msgstr "Пароли должны совпадать. Пожалуйста, вв
 
 #: modules/mod_authentication/templates/_logon_error.tpl:17
 msgid ""
-"To find your account\tyou need to enter either your username or the e-mail "
-"address you gave us."
+"To find your account you need to enter either your username or the email address we have received from you."
 msgstr ""
 "Чтобы определить вашу учетную запись,\tнужно указать имя пользователя или "
 "связанный с ней адрес e-mail."
@@ -220,7 +215,7 @@ msgstr "Имя пользователя"
 
 #: modules/mod_authentication/templates/_logon_error.tpl:16
 msgid ""
-"We can only send you an e-mail when we have the e-mail address of your "
+"We can only send you an email when we have the email address of your "
 "account."
 msgstr ""
 "Сообщение может быть отправлено только в том случае, если задан адрес e-mail "
@@ -228,13 +223,13 @@ msgstr ""
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:40
 msgid ""
-"We don’t seem to have any valid e-mail address or other electronic "
+"We don’t seem to have any valid email address or other electronic "
 "communication address of you."
 msgstr "Ваш электронный адрес для обратной связи в системе не обнаружен."
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:30
 msgid ""
-"In the e-mail you will find instructions on how "
+"In the email you will find instructions on how "
 "to confirm your account."
 msgstr ""
 "В сообщении указаны инструкции по "
@@ -242,8 +237,8 @@ msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:16
 msgid ""
-"When you didn't request a password reset, you can ignore this e-mail. Maybe "
-"someone made an error typing his or her e-mail address."
+"When you didn't request a password reset, you can ignore this email. Maybe "
+"someone made an error typing his or her email address."
 msgstr ""
 "Если вы не запрашивали смену пароля, вы можете проигнорировать это "
 "сообщение. Возможно, кто-то ошибся при наборе своего адреса e-mail."
@@ -251,7 +246,7 @@ msgstr ""
 #: modules/mod_authentication/templates/_logon_stage.tpl:7
 #: modules/mod_authentication/templates/_logon_stage.tpl:32
 msgid ""
-"If you do not receive the e-mail within a few minutes, please check your spam folder."
+"If you do not receive the email within a few minutes, please check your spam folder."
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:10
@@ -259,7 +254,7 @@ msgid "Need help signing in?"
 msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:14
-msgid "You've entered an unknown username or e-mail address. Please try again."
+msgid "You've entered an unknown username or email address. Please try again."
 msgstr "Вы указали неверное имя пользователя или e-mail.  Попробуйте снова."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:5
@@ -272,9 +267,9 @@ msgstr ""
 
 #: modules/mod_authentication/templates/email_password_reset.tpl:22
 msgid ""
-"You receive this e-mail because you or someone else requested a password "
+"You receive this email because you or someone else requested a password "
 "reset for your account. You or the someone else either entered your username "
-"or e-mail address. You will not receive any additional e-mails because of "
+"or email address. You will not receive any additional emails because of "
 "this request."
 msgstr ""
 "Вы получили это сообщение, потому что вы или кто-то другой запросили сброс "
@@ -295,15 +290,15 @@ msgid "Your account name is"
 msgstr "Имя вашей учетной записи:"
 
 #: modules/mod_authentication/templates/_logon_stage.tpl:15
-msgid "Your account needs verification"
-msgstr "Вашу учетную запись необходимо активировать"
+msgid "Verify your account"
+msgstr ""
 
 #: modules/mod_authentication/templates/_logon_error.tpl:21
 msgid "Your new password is too short."
 msgstr "Вы указали слишком короткий пароль."
 
 #: modules/mod_authentication/templates/_logon_error.tpl:10
-msgid "e-mail a temporary password"
+msgid "email a temporary password"
 msgstr "заявку на временный пароль"
 
 #: modules/mod_authentication/templates/_logon_reset_form.tpl:21
